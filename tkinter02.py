@@ -1,0 +1,10 @@
+import tkinter as Tk
+janela = Tk.Tk()
+janela.title("teste titulo")
+mesagem = Tk.Label(text= "Sistema de Busca de Cotação de Moedas",fg='white',bg="#000000",width=25, height=10)
+mesagem.pack()
+mesagem2 = Tk.Label (text= "Selecione a moeda desejada",fg="yellow",bg="#402288")
+mesagem2.pack()
+moeda = Tk.Entry()
+moeda.pack()
+janela.mainloop()
